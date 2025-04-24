@@ -70,7 +70,7 @@ func (ls *LetStatement) String() string {
 		out.WriteString(ls.Value.String())
 	}
 
-	out.WriteString("")
+	out.WriteString(";")
 
 	return out.String()
 }
